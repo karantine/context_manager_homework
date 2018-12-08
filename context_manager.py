@@ -15,8 +15,9 @@ class ContextManager:
 
 
 def calculate_num():
-    x = float(input('Введите число:'))
-    y = float(input('Введите число:'))
+    print('Для вычисления по формуле (x*y + 18)/2 введите два числа')
+    x = float(input('Введите первое число: '))
+    y = float(input('Введите второе число: '))
     total_num = (x*y + 18)/2
     print('Результат вычисления: {}'.format(total_num))
     return total_num
